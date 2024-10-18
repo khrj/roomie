@@ -1,0 +1,130 @@
+[
+    {
+        "name": "LT1",
+        "capacity": 450
+    },
+    {
+        "name": "LT2",
+        "capacity": 450
+    },
+    {
+        "name": "LT3",
+        "capacity": 450
+    },
+    {
+        "name": "LT4",
+        "capacity": 450
+    },
+    {
+        "name": "DLT5",
+        "capacity": 250
+    },
+    {
+        "name": "DLT6",
+        "capacity": 250
+    },
+    {
+        "name": "DlT7",
+        "capacity": 250
+    },
+    {
+        "name": "DLT8",
+        "capacity": 250
+    },
+    {
+        "name": "DLT9",
+        "capacity": 250
+    },
+    {
+        "name": "DLT10",
+        "capacity": 250
+    },
+    {
+        "name": "C301",
+        "capacity": 120
+    },
+    {
+        "name": "C302",
+        "capacity": 120
+    },
+    {
+        "name": "C305",
+        "capacity": 120
+    },
+    {
+        "name": "C306",
+        "capacity": 120
+    },
+    {
+        "name": "C307",
+        "capacity": 120
+    },
+    {
+        "name": "C308",
+        "capacity": 120
+    },
+    {
+        "name": "C401",
+        "capacity": 120
+    },
+    {
+        "name": "C402",
+        "capacity": 120
+    },
+    {
+        "name": "C403",
+        "capacity": 120
+    },
+    {
+        "name": "C404",
+        "capacity": 120
+    },
+    {
+        "name": "C405",
+        "capacity": 120
+    },
+    {
+        "name": "A501",
+        "capacity": 120
+    },
+    {
+        "name": "A502",
+        "capacity": 120
+    },
+    {
+        "name": "A503",
+        "capacity": 120
+    },
+    {
+        "name": "A505",
+        "capacity": 120
+    },
+    {
+        "name": "A507",
+        "capacity": 120
+    },
+    {
+        "name": "A508",
+        "capacity": 120
+    },
+    {
+        "name": "A601",
+        "capacity": 120
+    },
+    {
+        "name": "A602",
+        "capacity": 120
+    },
+    {
+        "name": "A603",
+        "capacity": 120
+    },
+    {
+        "name": "A604",
+        "capacity": 120
+    },
+    {
+        "name": "A605",
+        "capacity": 120
+    }
+]
