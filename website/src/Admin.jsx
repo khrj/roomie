@@ -201,10 +201,10 @@ export default function Admin() {
 					static={true}
 				>
 					<DialogPanel className="w-30">
-						<h3 className="text-lg font-semibold text-tremor-content-strong dark:text-dark-tremor-content-strong">
+						<h3 className="text-lg font-semibold text-tremor-content-strong">
 							Comment
 						</h3>
-						<p className="mt-2 leading-6 text-tremor-default text-tremor-content dark:text-dark-tremor-content">
+						<p className="mt-2 leading-6 text-tremor-default text-tremor-content">
 							Add a comment explaining your decision or asking for
 							clarifications.
 						</p>
