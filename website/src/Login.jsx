@@ -23,7 +23,7 @@ export default function Login() {
 				<div className="flex flex-1 flex-col justify-center px-4 py-10 lg:px-6">
 					<div className="sm:mx-auto sm:w-full sm:max-w-sm">
 						<h3 className="text-center text-tremor-title font-semibold text-tremor-content-strong dark:text-dark-tremor-content-strong">
-							Log in or create account
+							Log in
 						</h3>
 						<div className="mt-6 space-y-4">
 							<div>
