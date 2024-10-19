@@ -1,0 +1,54 @@
+datasource db {
+    provider = "postgresql"
+    url      = env("dburl")
+}
+
+generator client {
+    provider   = "prisma-client-js"
+    engineType = "binary"
+}
+
+model Request {
+    id      Int     @id @default(autoincrement())
+    author  Account @relation(fields: [accountId], references: [id], onDelete: Cascade)
+    room    Room    @relation(fields: [roomId], references: [id], onDelete: Cascade)
+    purpose String
+
+    date  String
+    slots Int[]
+
+    status   Status
+    comments String?
+
+    accountId Int
+    roomId    Int
+}
+
+model Room {
+    id       Int       @id @default(autoincrement())
+    name     String
+    capacity Int
+    Request  Request[]
+}
+
+model Account {
+    id       Int    @id @default(autoincrement())
+    email    String @unique
+    password String
+    phone    String
+
+    personName  String
+    bitsId      String? @unique
+    designation String
+
+    admin Boolean @default(false)
+
+    accessToken String?   @unique @db.Text
+    Request     Request[]
+}
+
+enum Status {
+    Pending
+    Approved
+    Rejected
+}
